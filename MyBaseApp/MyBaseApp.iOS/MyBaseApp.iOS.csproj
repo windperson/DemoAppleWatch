@@ -129,6 +129,13 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
+    <ProjectReference Include="..\..\MyWatchApp\MyWatchApp.WatchOSApp\MyWatchApp.WatchOSApp.csproj">
+      <Project>{2d42eb0c-a718-4782-9318-74307d462eee}</Project>
+      <Name>MyWatchApp.WatchOSApp</Name>
+      <IsAppExtension>false</IsAppExtension>
+      <IsWatchApp>true</IsWatchApp>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
     <ProjectReference Include="..\MyBaseApp\MyBaseApp.csproj">
       <Project>{7398BA7A-B2ED-4FA5-990F-427F82568BA9}</Project>
       <Name>MyBaseApp</Name>
